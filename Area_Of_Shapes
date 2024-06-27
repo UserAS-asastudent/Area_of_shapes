@@ -1,0 +1,17 @@
+public class Arithmetic_Operators
+{
+    public static void main(int a, int b, int p)
+    {
+        int sum = a+b;
+        int difference = a-b;
+        int product = a*b;
+        int quot = a/b;
+        int rem = a%b;
+        System.out.println("sum :"+ sum);
+        System.out.println("difference :"+ difference);
+        System.out.println("product :"+product);
+        System.out.println("quot :"+ quot);
+        System.out.println("rem :"+rem);
+        
+    }
+}
