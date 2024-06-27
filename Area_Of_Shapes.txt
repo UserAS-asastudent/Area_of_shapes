@@ -1,0 +1,59 @@
+public class Shapes
+{
+    public static void main(int length, int breadth, int height, int base, int parallel1, int parallel2, int radius, int side)
+    {
+        System.out.println("Welcome to our page to get help with areas of shapes");
+        float pi=3.14f;
+        double arear;
+        arear= length*breadth;
+        System.out.println("Area of rectangle is :"+arear);
+        double prectangle;
+        prectangle= 2*(length+breadth);
+        System.out.println("Perimeter of rectangle is :"+prectangle);
+        double areas;
+        areas= side*side;
+        System.out.println("Area of square is :"+areas);
+        double psquare;
+        psquare= 4*side;
+        System.out.println("Perimeter of square is :"+psquare);
+        double areat;
+        areat= 0.5*base*height;
+        System.out.println("Area of triangle is :"+areat);
+        double areaofet;
+        areaofet= (1.73*side*side)/4;
+        System.out.println("Area of equilateral triangle is :"+areaofet);
+        double pequilateral;
+        pequilateral= 3*side;
+        System.out.println("Perimeter of equilateral triangle is :"+pequilateral);
+        double areap;
+        areap= base*height;
+        System.out.println("Area of parallelogram is : "+areap);
+        double areatrap;
+        areatrap= 0.5*(parallel1+parallel2)*height;  
+        System.out.println("Area of trapezium is :"+areatrap);
+        double surface_areaboid;
+        surface_areaboid= 2*(length*breadth+breadth*height+length*height);
+        System.out.println("Surface area of cuboid is :"+surface_areaboid);
+        double surface_areaube;
+        surface_areaube= 6*side*side;
+        System.out.println("Surface area of cube is :"+surface_areaube);
+        double tsr;
+        tsr= 2*pi*radius*(radius+height);
+        System.out.println("Total surface area of cylinder is :"+tsr);
+        double csr;
+        csr= 2*pi*radius*height;
+        System.out.println("Curved surface area of cyinder is :"+csr);
+        System.out.println("Thank you for visiting this page");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+}
